@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-
+import "./todo.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 export function ToDo() {
   let [tasks, setTasks] = useState({ task: "", priority: "", status: "pending" });
