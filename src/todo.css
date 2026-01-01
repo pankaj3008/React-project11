@@ -1,0 +1,40 @@
+
+.dark-body {
+    background: #1c232a;
+    min-height: 100vh;
+}
+
+.dark-card {
+    background: #263241;
+    border: 1px solid #1f242d;
+    border-radius: 14px;
+}
+
+.dark-input {
+    background-color: #1a1f24 !important;
+    color: #e4e4e4 !important;
+    border: 1px solid #2b3138 !important;
+    padding: 10px !important;
+}
+
+.dark-input:focus {
+    border-color: #4f9cff !important;
+    box-shadow: 0 0 0 0.2rem rgba(79, 156, 255, 0.3) !important;
+}
+
+
+.dark-task-item {
+    background: #1a1f24;
+    border: 1px solid #2b3138;
+    transition: 0.25s ease;
+}
+
+.dark-task-item:hover {
+    background: #242b33;
+    transform: translateY(-3px);
+}
+
+
+h2, h3, h4, h5, label {
+    letter-spacing: 0.4px;
+}
